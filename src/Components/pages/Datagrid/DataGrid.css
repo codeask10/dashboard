@@ -1,0 +1,25 @@
+/* .table-container{
+    padding: 3rem 5rem;
+}
+.table-container>:nth-child(1)
+{
+    border-radius: 10px!important;
+    overflow: hidden!important;;
+}
+.MuiTableRow-root, .MuiTableCell-root{
+    border: none!important;
+} */
+.header{
+    display: flex;
+    padding: 2rem 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.button-container{
+    font-size: 1.2rem;
+    font-weight: 500;
+}

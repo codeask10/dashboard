@@ -1,0 +1,28 @@
+/* Dropdown styles */
+  
+  .dropdown-btn {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #050505;
+    border: 1px solid #ddd;
+    align-items: center;
+    width: 150px;
+    margin: auto;
+  }
+  
+  .arrow {
+    font-size: 20px;
+    margin-left:50px;
+  }
+  
+  /* Arrow down by default */
+  .arrow.down::before {
+    content: '\25BC'; /* Downward-pointing arrow */
+  }
+  
+  /* Arrow up when dropdown is open */
+  .arrow.up::before {
+    content: '\25B2'; /* Upward-pointing arrow */
+  }
+  
+  
